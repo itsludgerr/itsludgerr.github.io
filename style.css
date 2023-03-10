@@ -1,0 +1,61 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.terminal {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(10, 10, 10);
+	color: #c3c3c3;
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 16px;
+}
+
+.title-bar {
+	display: flex;
+	align-items: center;
+	background-color: rgb(24, 24, 24);
+	height: 30px;
+	padding: 0 10px;
+}
+
+.icon {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(243, 150, 23);
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.title {
+	flex: 1;
+	font-size: 14px;
+}
+
+.menu {
+	display: inline-flex;
+	margin-right: -5px;
+}
+
+.menu-item {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #c3c3c3;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.content {
+	padding: 10px;
+}
